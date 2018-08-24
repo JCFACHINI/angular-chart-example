@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/angular.chartjs/latest/angular-chart.min.js"></script>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <title>Angular Chart Example</title>
+</head>
+<body ng-app="app" ng-controller="BaseCtrl">
+
+   <canvas style="width: 50%; height: 50%;" id="base" class="chart-base" chart-type="type"
+           chart-data="data" chart-labels="labels" chart-click="onClick">
+   </canvas>
+
+   <canvas style="width: 50%; height: 50%;" id="base2" class="chart-base" chart-type="type"
+           chart-data="data2" chart-labels="labels2" chart-click="onClick2">
+   </canvas>
+</body>
+</html>
